@@ -1,3 +1,13 @@
+-- H2を使う際には多くの修正が必要になる。
+-- MySQL では INT(N) の N は 表示幅 を意味していましたが、H2 ではそもそも INT(N) という構文が存在しません。
+
+CREATE TABLE task_type (
+  id int NOT NULL,
+  type varchar(20) NOT NULL,
+  comment varchar(50) DEFAULT NULL,
+  PRIMARY KEY (id)
+);
+
 -- task.id は PRIMARY KEY であり、かつ AUTO_INCREMENT が設定されています。
 -- INSERT INTO task VALUES (...) で NULL を明示的に指定すると、H2 では AUTO_INCREMENT が機能せずエラーになる。
 
