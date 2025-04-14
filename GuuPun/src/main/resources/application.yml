@@ -11,4 +11,4 @@ encryption:
   key: "1234567890ABCDEF1234567890ABCDEF"  # AES-256の32バイトキー（128ビット）
 
 server:
-  port: 8080
+  port: ${PORT:8080}
