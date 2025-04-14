@@ -18,8 +18,7 @@ public class SecurityConfig {
         http
         .authorizeHttpRequests() // authorizeRequests() を authorizeHttpRequests() に変更
         .requestMatchers("/h2-console/**").permitAll()  // antMatchers() を requestMatchers() に変更
-        .requestMatchers("/css/**", "/js/**", "/images/**").permitAll()  // 静的リソースへのアクセスを許可
-        .requestMatchers("/").permitAll()  // http://localhost:8080/に誰でもアクセス可能
+        .requestMatchers("/", "/index", "/css/**", "/js/**", "/images/**").permitAll()  // 静的リソースへのアクセスを許可
         .requestMatchers("/forgotten_mimolette/**").permitAll()  // /forgotten_mimolette へのアクセスも許可
         .anyRequest().authenticated()  // 他のURLは認証が必要
         

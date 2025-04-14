@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class HomeController {
 
     // ルートURL（/）にアクセスしたときにサイトマップを表示
-    @GetMapping("/")
+    @GetMapping({"/", "/index"})
     public String showSitemap() {
         return "index";  // templates/index.html を返す
     }
