@@ -24,7 +24,8 @@
 - 随時、新規アプリケーションの追加
 
 ###作成者情報(Author info)
-K i m i h i r o    A b e  
+
+K i m i h i r o    A b e
 GitHub: [@kimihiro-abe](https://github.com/kimihiro-abe)
 
 
