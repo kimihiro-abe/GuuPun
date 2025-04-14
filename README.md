@@ -2,7 +2,7 @@
 "GuuPun"階層以下に、Spring Boot + Javaで作成したアプリケーションを追加していきます。
 
 ### 使用技術（Tech Stack）
-- Java 23
+- Java 17
 - Spring Boot 3.4.3
 - Thymeleaf
 - H2 Database <<< 今後Postgresに変更予定
