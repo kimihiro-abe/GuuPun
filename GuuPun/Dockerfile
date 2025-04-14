@@ -10,4 +10,4 @@ FROM openjdk:17-jdk-slim
 ENV JAVA_HOME=/usr/lib/jvm/java-17-openjdk-amd64
 COPY --from=build /app/build/libs/*.jar app.jar
 EXPOSE 8080
-ENTRYPOINT ["java", "-jar", "app.jar", "--server.port=${PORT}"]
+ENTRYPOINT ["java", "-jar", "app.jar", "--server.address=0.0.0.0", "--server.port=${PORT}"]
