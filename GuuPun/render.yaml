@@ -2,7 +2,6 @@ services:
   - type: web
     name: GuuPun
     env: docker
-    dockerfilePath: deploy/Dockerfile
     plan: free
     autoDeploy: true
 
