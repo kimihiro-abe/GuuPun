@@ -1,0 +1,13 @@
+# Eclipse / STS workspace metadata
+../.metadata/
+
+# Eclipse specific files
+.classpath
+.project
+.settings/
+../.metadata/
+
+# OS系の隠しファイルもついでに無視
+.DS_Store
+Thumbs.db
+
