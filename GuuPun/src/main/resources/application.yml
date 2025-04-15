@@ -1,11 +1,23 @@
 #spring.application.name=GuuPun
 spring:
   datasource:
-    url: jdbc:h2:mem:test
-    driverClassName: org.h2.Driver
-    username: sa
-    password:
-  h2.console.enabled: true
+    url: jdbc:postgresql://localhost:5432/guupun_db
+    username: guupun_app_user
+    password: guupunpswd
+    driver-class-name: org.postgresql.Driver  # JDBCドライバのクラス名
+    hikari:
+      connection-init-sql: SET search_path TO guupun_schema # 優先的にguupun_schemaが探索対象になる。
+    jpa:
+      hibernate:
+        ddl-auto: update  # 自動スキーマ更新設定（開発中は"update"が便利）
+      database-platform: org.hibernate.dialect.PostgreSQLDialect  # PostgreSQL用のHibernateダイヤレクト    
+
+#  datasource:
+#    url: jdbc:h2:mem:test
+#    driverClassName: org.h2.Driver
+#    username: sa
+#    password:
+#  h2.console.enabled: true
 
 encryption:
   key: "1234567890ABCDEF1234567890ABCDEF"  # AES-256の32バイトキー（128ビット）

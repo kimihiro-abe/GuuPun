@@ -1,0 +1,23 @@
+#spring.application.name=GuuPun
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/guupun_db
+    username: guupun_app_user
+    password: guupunpswd
+    hikari:
+      connection-init-sql: SET search_path TO guupun_schema
+      # 優先的にguupun_schemaが探索対象になる。
+
+#  datasource:
+#    url: jdbc:h2:mem:test
+#    driverClassName: org.h2.Driver
+#    username: sa
+#    password:
+#  h2.console.enabled: true
+
+encryption:
+  key: "1234567890ABCDEF1234567890ABCDEF"  # AES-256の32バイトキー（128ビット）
+
+server:
+  address: 0.0.0.0
+  port: ${PORT:8080}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;GuuPun/src/main/resources/static/css/starter-template.css&apos; to &apos;forgotten_mimolette.css&apos;" description="Rename resource &apos;starter-template.css&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/resources/static/css/starter-template.css" name="forgotten_mimolette.css" stamp="1744679524113" updateReferences="true"/>
+</session>

@@ -1,0 +1,164 @@
+body {
+  padding-top: 5rem;
+}
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+.word-wrap {
+  word-break: break-word;
+  white-space: pre-wrap;
+  max-width: 60ch;
+}
+.input-row {
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 8px; /* 入力欄とボタンの間に少しスペース */
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.input-content {
+  align-items: center;
+  flex: 1; /* 入力欄を広げる */
+  width: 600px;
+  height: 30px;
+  font-size: 1em; /* 文字サイズも大きく */
+}
+button:active {
+  transform: scale(0.8); /* 押された感を演出 */
+  background-color: #e0e0e0; /* 押したとき少し色を変える */
+  box-shadow: inset 0 0 5px #aaa;
+}
+.add-button {
+  display: block;
+  margin: 5px auto;
+  width: 55px;
+  height: 50px;
+  font-size: 1.5em; /* 文字サイズも大きく */
+  cursor: pointer;
+  transform-origin: center center; /* アニメーションの中心を指定 */
+}
+.animate-scale {
+  animation: scale-up-down 0.25s ease-in-out forwards; /* アニメーション名、時間、イージング、終了時の状態維持 */
+}
+@keyframes scale-up-down {
+  0% { transform: scale(1); } /* 開始時のサイズ */
+  50% { transform: scale(16); } /* 最大サイズを設定 */
+  100% { transform: scale(1); } /* 終了時に元のサイズに */
+}
+
+ .delete-button {
+  width: 36px;
+  height: 36px;
+  font-size: 1.5em; /* 文字サイズも大きく */
+  margin-left: 12px;
+  cursor: pointer;
+}
+.table-padding1{
+	font-family: 'Patrick Hand', cursive;
+	min-width: 500px;
+	width: 75%;
+	font-size: 1.4em; /* 文字サイズも大きく */
+	text-align: left;
+	padding-right: 50px;
+	/*
+	padding-left: 0px;
+	padding-right: 525px; */
+	border-bottom: 2px solid #05a6f0; /* 薄いグレー色 */
+}
+.table-padding2{
+	font-family: 'Patrick Hand', cursive;
+	min-width: 100px;
+	/*width: 15%;*/
+	font-size: 1.4em; /* 文字サイズも大きく */
+	text-align: left;
+	padding-left: 0px;
+	padding-right: 0px;
+	border-bottom: 2px solid #05a6f0;
+}
+.table-padding3{
+	font-family: 'Patrick Hand', cursive;
+	min-width: 100px;
+	width: 6.5%;
+	font-size: 1.4em; /* 文字サイズも大きく */
+	text-align: left;
+	padding-left: 0px;
+	padding-right: 0px;
+	border-bottom: 2px solid #05a6f0;
+	
+}
+.error{
+	color: #f35325;
+	text-align: center;
+}
+body {
+  padding-left: 120px;
+  padding-right: 120px;
+}
+.container {
+  max-width: 100%;      /* 最大幅を指定（よくあるのは800～1200px） */
+  margin: 0 auto;        /* 左右の余白を自動で均等に（中央寄せ） */
+  padding: 0 32px;       /* スマホでも端がくっつかないようにちょっと余白 */
+}
+h1{
+	font-family: 'Patrick Hand', cursive;
+	text-align: center;
+	font-size: 3em; /* 文字サイズも大きく */
+	border-bottom: 2px solid #ffba08; /* オレンジ色 */
+}
+h2{
+	font-family: 'Patrick Hand', cursive;
+	text-align: center;
+	font-size: 2em; /* 文字サイズも大きく */
+	
+}
+.sub-title{
+	font-family: 'Patrick Hand', cursive;
+	text-align: center;
+	display: block;    /* labelをブロック要素に変更 */
+	font-weight: bold;
+	font-size: 1.3em; /* 文字サイズも大きく */
+	/* border-bottom: 2px solid #81bc06 */
+}
+table {
+  table-layout: fixed;
+  width: 100%;
+  border-spacing: 5px; /* セル間に12pxの間隔を作る */
+  border-collapse: separate; /* デフォルトだけど、念のため書く */
+}
+.index_tr td {
+	border-bottom: 2px solid #dcdcdc;
+}
+/* Comment fadeOut: Like a fog */
+.fade-out {
+  opacity: 0;
+  transform: translateY(-10px);
+  transition: opacity 0.3s ease, transform 0.5s ease;
+  pointer-events: none;
+}
+.task {
+  transition: background-color 0.5s ease; /* 色が変わる際にスムーズに */
+}
+
+/* 初期は黒 */
+.task.new {
+  color: black;
+}
+
+/* 1日後 */
+.task.day_after3 {
+  color: #505050; /* 少しグレー */
+}
+
+/* 2日後 */
+.task.day_after5 {
+  color: #b0b0b0; /* さらにグレー */
+}
+
+/* 3日後以降 */
+.task.day_after6 {
+  color: #e0e0e0; /* より薄く */
+}
+
+
