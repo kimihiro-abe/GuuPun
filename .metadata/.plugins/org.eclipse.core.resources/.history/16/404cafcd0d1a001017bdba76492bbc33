@@ -65,10 +65,10 @@ public class TodoRepository_Impl implements TodoRepository {
 	@Override
 	@Scheduled(cron = "0 0 0 * * ?")  // 毎日深夜に実行
 	public void deleteOldTodos() {
-	    String sql = "DELETE FROM todo "
-	               + "WHERE createdate < CURRENT_TIMESTAMP - INTERVAL '8 days' "
-	               + "AND user_id = '1'";
-	    jdbcTemplate.update(sql);
+		String sql = "DELETE FROM todo "
+				+ "WHERE createdate < DATEADD('DAY', -8, CURRENT_TIMESTAMP) "
+				+ "AND user_id = '1'";
+        jdbcTemplate.update(sql);
 	}
 	//MySQL向けの文：SELECT FROM todo WHERE createdate < NOW() - INTERVAL 8 DAY and userId = '1'
 
