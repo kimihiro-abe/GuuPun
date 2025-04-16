@@ -1,9 +1,9 @@
 #spring.application.name=GuuPun
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/guupun_db
-    username: guupun_app_user
-    password: guupunpswd
+    url: ${DB_URL}
+    username: ${DB_USER}
+    password: ${DB_PASS}
     driver-class-name: org.postgresql.Driver  # JDBCドライバのクラス名
     hikari:
       connection-init-sql: SET search_path TO guupun_schema # 優先的にguupun_schemaが探索対象になる。
