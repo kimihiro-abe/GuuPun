@@ -17,8 +17,4 @@ http://localhost:8080/h2-console/login.do
 
 	2,タスクマネージャーの「詳細」項目から、PIDで検索して、
 	そのタスクを完全に停止する。
-
-### key
-bashで以下を使って生成してみる。32文字で着るなら"| cut -c -32"を追加して実行
-openssl rand -base64 32
-
+	
