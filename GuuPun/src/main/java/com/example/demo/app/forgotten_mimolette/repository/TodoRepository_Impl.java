@@ -63,7 +63,7 @@ public class TodoRepository_Impl implements TodoRepository {
 	}
 
 	@Override
-	@Scheduled(cron = "0 0 0 * * ?")  // 毎日深夜に実行
+	@Scheduled(cron = "0 0 18 * * ?")  // 最終的には深夜に実行予定
 	public void deleteOldTodos() {
 	    String sql = "DELETE FROM todo "
 	               + "WHERE createdate < CURRENT_TIMESTAMP - INTERVAL '8 days' "
