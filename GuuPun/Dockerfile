@@ -1,13 +1,21 @@
-# ビルドステージ
-FROM gradle:8.5-jdk17 AS build
-ENV JAVA_HOME=/usr/lib/jvm/java-17-openjdk-amd64
-COPY --chown=gradle:gradle . /app
-WORKDIR /app
-RUN gradle clean build --no-daemon
+# --------- ビルドステージ ----------
+FROM eclipse-temurin:17 AS build
 
-# 実行ステージ
-FROM openjdk:17-jdk-slim
-ENV JAVA_HOME=/usr/lib/jvm/java-17-openjdk-amd64
+WORKDIR /app
+
+COPY --chown=gradle:gradle . /app
+
+# gradlew を使って、Gradleがなくてもビルドできるように
+RUN ./gradlew clean build --no-daemon
+
+# --------- 実行ステージ ----------
+FROM eclipse-temurin:17
+
+WORKDIR /app
+
 COPY --from=build /app/build/libs/*.jar app.jar
+
 EXPOSE 8080
+ENV PORT=8080
+
 ENTRYPOINT ["java", "-jar", "app.jar", "--server.address=0.0.0.0", "--server.port=${PORT}"]
