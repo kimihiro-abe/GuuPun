@@ -5,11 +5,13 @@
 - Java 17
 - Spring Boot 3.4.3
 - Thymeleaf
-- H2 Database <<< 今後Postgresに変更予定
+- Postgres17
 - JDBC
 - HTML/CSS
 - JavaScript
 - Git / GitHub
+- Render上で、Dockerベースでのビルド＆実行(Dockerfile使用)
+
 
 ### セットアップ方法（How to Use）
 1. このリポジトリをクローン  
