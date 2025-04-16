@@ -5,7 +5,7 @@
 - Java 17
 - Spring Boot 3.4.3
 - Thymeleaf
-- Postgres17
+- Postgres17(ローカルと本番との接続切り替えは環境変数を設定して対応)
 - JDBC
 - HTML/CSS
 - JavaScript
