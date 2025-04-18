@@ -1,0 +1,16 @@
+package com.example.demo.app.the_remains_of_the_artificial_beach.controller;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+@RequestMapping("/forgotten_mimolette")
+public class Controller {
+	
+    // ルートURL（/）にアクセスしたときにサイトマップを表示
+    @GetMapping({"/", "/index"})
+    public String showSitemap() {
+        return "index";  // templates/index.html を返す
+    }
+
+}
