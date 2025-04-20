@@ -1,0 +1,34 @@
+package com.example.demo.app.the_remains_of_the_artificial_beach.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+@RequestMapping("/the_remains_of_the_artificial_beach")
+public class ScapeController {
+	private boolean isPlaying = false;
+	
+    // ルートURL（/）にアクセスしたときにサイトマップを表示
+    @GetMapping()
+    public String showSitemap() {
+        return "the_Remains_of_the_artificial_beach/index";  // templates/index.html を返す
+    }
+
+    @GetMapping("/")
+    public String index(Model model) {
+        model.addAttribute("isPlaying", isPlaying);
+        return "index"; // sound.html (Thymeleafテンプレートファイル名)
+    }
+
+    @PostMapping("/toggle")
+    public String togglePlay(Model model) {
+        isPlaying = !isPlaying;
+        model.addAttribute("isPlaying", isPlaying);
+        // ここで再生/停止の処理を行う
+        return "index"; // 状態を更新して再度テンプレートをレンダリング
+    }
+
+}
