@@ -46,4 +46,4 @@ GitHub: [@kimihiro-abe](https://github.com/kimihiro-abe)
 ### 2, soundscape op.1：The Remains of the Artificial beach  -  機能一覧(Features)
 - (開発中：ver.0.2  色々と作り途中)
 - Web Audio APIによるブラウンノイズ生成による砂浜で聞く波の音の模倣
-
+- 再生を止めた際に、5秒かけて音量をゼロへ。
