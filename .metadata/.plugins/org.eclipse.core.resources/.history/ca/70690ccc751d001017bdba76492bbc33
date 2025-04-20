@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+	<meta charset="UTF-8">
+	<title>The Remains of the Artificial beach</title>
+</head>
+
+<body>
+  <div>The Remains of the Artificial beach</div>
+  <h1>波の音 (無限フェードイン・アウト)</h1>
+  <button id="toggleButton">再生</button>
+</body>
+</html>

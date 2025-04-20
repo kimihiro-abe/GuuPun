@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+	<meta charset="UTF-8">
+	<title>The Remains of the Artificial beach</title>
+	<!-- 
+	<link href="/css/forgotten_mimolette.css" th:href="@{/css/forgotten_mimolette.css}" rel="stylesheet">
+     -->
+     
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>	
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div>The Remains of the Artificial beach</div>
+  <h1 th:text="${title}" 
+	title="This is an artificial beach in a virtual space. &#x1F607">The Remains of the Artificial beach</h1>
+  
+  <h2 id="message" th:class="${isPlaying ? 'fade-out' : 'fade-in'}">Distant shores of memory, fading gleam...</h2>
+  <button id="toggleButton" th:text="${isPlaying ? '停止' : '再生'}">play/stop</button>
+  
+  
+  <script th:src="@{/js/the_remains_of_the_artificial_beach.js?v=1}"></script>
+</body>
+</html>
