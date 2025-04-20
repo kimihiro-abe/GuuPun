@@ -2291,3 +2291,18 @@ java.lang.IllegalStateException
 
 !ENTRY org.eclipse.lsp4e 4 0 2025-04-20 16:42:42.363
 !MESSAGE [Error]	Unexpected resource file:///K:/Programming/SpringApp/GuuPun/src/main/resources/static/css/the_remains_of_the_artificial_beach.css
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-21 08:24:04.538
+!MESSAGE [Error]	Unexpected resource file:///K:/Programming/SpringApp/GuuPun/src/main/java/com/example/demo/config/SecurityConfig.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-21 08:24:04.561
+!MESSAGE [Error]	Unexpected resource file:///K:/Programming/SpringApp/GuuPun/src/main/java/com/example/demo/config/SecurityConfig.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-21 08:24:04.602
+!MESSAGE [Error]	Unexpected resource file:///K:/Programming/SpringApp/GuuPun/src/main/java/com/example/demo/config/SecurityConfig.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-21 08:24:04.628
+!MESSAGE [Error]	Unexpected resource file:///K:/Programming/SpringApp/GuuPun/src/main/java/com/example/demo/config/SecurityConfig.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-21 08:24:04.660
+!MESSAGE [Error]	Unexpected resource file:///K:/Programming/SpringApp/GuuPun/src/main/java/com/example/demo/config/SecurityConfig.java

@@ -11,7 +11,7 @@ public class ScapeController {
     // ルートURL（/）にアクセスしたときにサイトマップを表示
     @GetMapping()
     public String showSitemap() {
-        return "the_Remains_of_the_artificial_beach/index";  // templates/index.html を返す
+        return "the_remains_of_the_artificial_beach/index";  // templates/index.html を返す
     }
 
 }
