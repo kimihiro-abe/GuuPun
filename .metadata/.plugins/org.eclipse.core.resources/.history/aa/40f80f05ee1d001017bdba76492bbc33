@@ -21,7 +21,6 @@
   <h2 id="message">Distant shores of memory, fading gleam...</h2>
   <!-- <button id="toggleButton" th:text="${isPlaying ? '&#x23f9;' : '&#x25b6;'}">play/stop</button> -->
   <button id="toggleButton" >▶️</button>
-  <div>Web Audio APIによるブラウンノイズ生成による砂浜で聞く波の音の模倣</div>
   
   
   <script th:src="@{/js/the_remains_of_the_artificial_beach.js?v=1}"></script>
