@@ -2306,3 +2306,6 @@ java.lang.IllegalStateException
 
 !ENTRY org.eclipse.lsp4e 4 0 2025-04-21 08:24:04.660
 !MESSAGE [Error]	Unexpected resource file:///K:/Programming/SpringApp/GuuPun/src/main/java/com/example/demo/config/SecurityConfig.java
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2025-04-24 17:08:58.272
+!MESSAGE No repository found at http://download.eclipse.org/webtools/repository.
