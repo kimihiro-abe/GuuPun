@@ -2309,3 +2309,198 @@ java.lang.IllegalStateException
 
 !ENTRY org.eclipse.equinox.p2.metadata.repository 4 1000 2025-04-24 17:08:58.272
 !MESSAGE No repository found at http://download.eclipse.org/webtools/repository.
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-04-25 23:51:30.936
+!MESSAGE [Info]	ESLint server running in node v22.11.0
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-25 23:51:31.001
+!MESSAGE [Error]	Unexpected resource file:///K:/Programming/SpringApp/GuuPun/src/main/java/com/example/demo/config/SecurityConfig.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-25 23:51:31.030
+!MESSAGE [Error]	Unexpected resource file:///K:/Programming/SpringApp/GuuPun/src/main/java/com/example/demo/config/SecurityConfig.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-25 23:51:31.063
+!MESSAGE [Error]	Unexpected resource file:///K:/Programming/SpringApp/GuuPun/src/main/java/com/example/demo/config/SecurityConfig.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-25 23:51:31.096
+!MESSAGE [Error]	Unexpected resource file:///K:/Programming/SpringApp/GuuPun/src/main/java/com/example/demo/config/SecurityConfig.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-25 23:51:31.309
+!MESSAGE [Error]	Unexpected resource file:///K:/Programming/SpringApp/GuuPun/src/main/java/com/example/demo/config/SecurityConfig.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-25 23:51:31.785
+!MESSAGE [Error]	Unexpected resource file:///K:/Programming/SpringApp/GuuPun/src/main/java/com/example/demo/config/SecurityConfig.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-25 23:51:31.822
+!MESSAGE [Error]	Unexpected resource file:///K:/Programming/SpringApp/GuuPun/src/main/java/com/example/demo/config/SecurityConfig.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-25 23:51:31.855
+!MESSAGE [Error]	Unexpected resource file:///K:/Programming/SpringApp/GuuPun/src/main/java/com/example/demo/config/SecurityConfig.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-25 23:51:31.888
+!MESSAGE [Error]	Unexpected resource file:///K:/Programming/SpringApp/GuuPun/src/main/java/com/example/demo/config/SecurityConfig.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-25 23:51:32.610
+!MESSAGE [Error]	Unexpected resource file:///K:/Programming/SpringApp/GuuPun/src/main/java/com/example/demo/config/SecurityConfig.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-25 23:51:44.993
+!MESSAGE [Error]	Unexpected resource file:///K:/Programming/SpringApp/GuuPun/src/main/java/com/example/demo/config/SecurityConfig.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-25 23:51:45.063
+!MESSAGE [Error]	Unexpected resource file:///K:/Programming/SpringApp/GuuPun/src/main/java/com/example/demo/config/SecurityConfig.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-25 23:51:45.092
+!MESSAGE [Error]	Unexpected resource file:///K:/Programming/SpringApp/GuuPun/src/main/java/com/example/demo/config/SecurityConfig.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-25 23:51:45.143
+!MESSAGE [Error]	Unexpected resource file:///K:/Programming/SpringApp/GuuPun/src/main/java/com/example/demo/config/SecurityConfig.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-25 23:51:45.759
+!MESSAGE [Error]	Unexpected resource file:///K:/Programming/SpringApp/GuuPun/src/main/java/com/example/demo/config/SecurityConfig.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-25 23:51:45.801
+!MESSAGE [Error]	Unexpected resource file:///K:/Programming/SpringApp/GuuPun/src/main/java/com/example/demo/config/SecurityConfig.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-25 23:51:45.842
+!MESSAGE [Error]	Unexpected resource file:///K:/Programming/SpringApp/GuuPun/src/main/java/com/example/demo/config/SecurityConfig.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-25 23:51:45.892
+!MESSAGE [Error]	Unexpected resource file:///K:/Programming/SpringApp/GuuPun/src/main/java/com/example/demo/config/SecurityConfig.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-25 23:51:46.834
+!MESSAGE [Error]	Unexpected resource file:///K:/Programming/SpringApp/GuuPun/src/main/java/com/example/demo/config/SecurityConfig.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-25 23:51:59.742
+!MESSAGE [Error]	Unexpected resource file:///K:/Programming/SpringApp/GuuPun/src/main/java/com/example/demo/config/SecurityConfig.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-25 23:51:59.767
+!MESSAGE [Error]	Unexpected resource file:///K:/Programming/SpringApp/GuuPun/src/main/java/com/example/demo/config/SecurityConfig.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-25 23:51:59.800
+!MESSAGE [Error]	Unexpected resource file:///K:/Programming/SpringApp/GuuPun/src/main/java/com/example/demo/config/SecurityConfig.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-25 23:51:59.842
+!MESSAGE [Error]	Unexpected resource file:///K:/Programming/SpringApp/GuuPun/src/main/java/com/example/demo/config/SecurityConfig.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-25 23:52:00.607
+!MESSAGE [Error]	Unexpected resource file:///K:/Programming/SpringApp/GuuPun/src/main/java/com/example/demo/config/SecurityConfig.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-25 23:52:09.085
+!MESSAGE [Error]	Unexpected resource file:///K:/Programming/SpringApp/GuuPun/src/main/java/com/example/demo/config/SecurityConfig.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-25 23:52:09.124
+!MESSAGE [Error]	Unexpected resource file:///K:/Programming/SpringApp/GuuPun/src/main/java/com/example/demo/config/SecurityConfig.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-25 23:52:09.166
+!MESSAGE [Error]	Unexpected resource file:///K:/Programming/SpringApp/GuuPun/src/main/java/com/example/demo/config/SecurityConfig.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-25 23:52:09.216
+!MESSAGE [Error]	Unexpected resource file:///K:/Programming/SpringApp/GuuPun/src/main/java/com/example/demo/config/SecurityConfig.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-25 23:52:10.167
+!MESSAGE [Error]	Unexpected resource file:///K:/Programming/SpringApp/GuuPun/src/main/java/com/example/demo/config/SecurityConfig.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-25 23:52:20.311
+!MESSAGE [Error]	Unexpected resource file:///K:/Programming/SpringApp/GuuPun/src/main/java/com/example/demo/config/SecurityConfig.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-25 23:52:20.332
+!MESSAGE [Error]	Unexpected resource file:///K:/Programming/SpringApp/GuuPun/src/main/java/com/example/demo/config/SecurityConfig.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-25 23:52:20.374
+!MESSAGE [Error]	Unexpected resource file:///K:/Programming/SpringApp/GuuPun/src/main/java/com/example/demo/config/SecurityConfig.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-25 23:52:20.424
+!MESSAGE [Error]	Unexpected resource file:///K:/Programming/SpringApp/GuuPun/src/main/java/com/example/demo/config/SecurityConfig.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-25 23:52:21.119
+!MESSAGE [Error]	Unexpected resource file:///K:/Programming/SpringApp/GuuPun/src/main/java/com/example/demo/config/SecurityConfig.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-25 23:52:29.441
+!MESSAGE [Error]	Unexpected resource file:///K:/Programming/SpringApp/GuuPun/src/main/java/com/example/demo/config/SecurityConfig.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-25 23:52:29.490
+!MESSAGE [Error]	Unexpected resource file:///K:/Programming/SpringApp/GuuPun/src/main/java/com/example/demo/config/SecurityConfig.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-25 23:52:29.523
+!MESSAGE [Error]	Unexpected resource file:///K:/Programming/SpringApp/GuuPun/src/main/java/com/example/demo/config/SecurityConfig.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-25 23:52:29.565
+!MESSAGE [Error]	Unexpected resource file:///K:/Programming/SpringApp/GuuPun/src/main/java/com/example/demo/config/SecurityConfig.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-25 23:52:30.222
+!MESSAGE [Error]	Unexpected resource file:///K:/Programming/SpringApp/GuuPun/src/main/java/com/example/demo/config/SecurityConfig.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-25 23:52:32.144
+!MESSAGE [Error]	Unexpected resource file:///K:/Programming/SpringApp/GuuPun/src/main/java/com/example/demo/config/SecurityConfig.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-25 23:52:32.173
+!MESSAGE [Error]	Unexpected resource file:///K:/Programming/SpringApp/GuuPun/src/main/java/com/example/demo/config/SecurityConfig.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-25 23:52:32.215
+!MESSAGE [Error]	Unexpected resource file:///K:/Programming/SpringApp/GuuPun/src/main/java/com/example/demo/config/SecurityConfig.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-25 23:52:32.248
+!MESSAGE [Error]	Unexpected resource file:///K:/Programming/SpringApp/GuuPun/src/main/java/com/example/demo/config/SecurityConfig.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-25 23:52:32.971
+!MESSAGE [Error]	Unexpected resource file:///K:/Programming/SpringApp/GuuPun/src/main/java/com/example/demo/config/SecurityConfig.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-25 23:52:37.554
+!MESSAGE [Error]	Unexpected resource file:///K:/Programming/SpringApp/GuuPun/src/main/java/com/example/demo/config/SecurityConfig.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-25 23:52:37.598
+!MESSAGE [Error]	Unexpected resource file:///K:/Programming/SpringApp/GuuPun/src/main/java/com/example/demo/config/SecurityConfig.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-25 23:52:37.639
+!MESSAGE [Error]	Unexpected resource file:///K:/Programming/SpringApp/GuuPun/src/main/java/com/example/demo/config/SecurityConfig.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-25 23:52:37.673
+!MESSAGE [Error]	Unexpected resource file:///K:/Programming/SpringApp/GuuPun/src/main/java/com/example/demo/config/SecurityConfig.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-25 23:52:38.324
+!MESSAGE [Error]	Unexpected resource file:///K:/Programming/SpringApp/GuuPun/src/main/java/com/example/demo/config/SecurityConfig.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-25 23:52:38.364
+!MESSAGE [Error]	Unexpected resource file:///K:/Programming/SpringApp/GuuPun/src/main/java/com/example/demo/config/SecurityConfig.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-25 23:52:38.406
+!MESSAGE [Error]	Unexpected resource file:///K:/Programming/SpringApp/GuuPun/src/main/java/com/example/demo/config/SecurityConfig.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-25 23:52:38.448
+!MESSAGE [Error]	Unexpected resource file:///K:/Programming/SpringApp/GuuPun/src/main/java/com/example/demo/config/SecurityConfig.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-25 23:52:39.430
+!MESSAGE [Error]	Unexpected resource file:///K:/Programming/SpringApp/GuuPun/src/main/java/com/example/demo/config/SecurityConfig.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-25 23:52:41.654
+!MESSAGE [Error]	Unexpected resource file:///K:/Programming/SpringApp/GuuPun/src/main/java/com/example/demo/config/SecurityConfig.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-25 23:52:41.715
+!MESSAGE [Error]	Unexpected resource file:///K:/Programming/SpringApp/GuuPun/src/main/java/com/example/demo/config/SecurityConfig.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-25 23:52:41.765
+!MESSAGE [Error]	Unexpected resource file:///K:/Programming/SpringApp/GuuPun/src/main/java/com/example/demo/config/SecurityConfig.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-25 23:52:41.807
+!MESSAGE [Error]	Unexpected resource file:///K:/Programming/SpringApp/GuuPun/src/main/java/com/example/demo/config/SecurityConfig.java
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-25 23:52:41.857
+!MESSAGE [Error]	Unexpected resource file:///K:/Programming/SpringApp/GuuPun/src/main/java/com/example/demo/config/SecurityConfig.java
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-04-26 01:06:48.340
+!MESSAGE [Info]	ESLint server running in node v22.11.0
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-04-26 01:06:48.592
+!MESSAGE [Info]	Using Typescript version (user-setting) 5.6.3 from path "C:\sts-4.27.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.2.4.202411181846\node_modules\typescript\lib\tsserver.js"
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-26 01:06:48.617
+!MESSAGE [Error]	Unexpected resource file:///K:/Programming/SpringApp/GuuPun/src/main/resources/static/css/the_remains_of_the_artificial_beach.css
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-26 01:06:48.667
+!MESSAGE [Error]	Unexpected resource file:///K:/Programming/SpringApp/GuuPun/src/main/resources/static/css/the_remains_of_the_artificial_beach.css
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-04-26 01:06:48.708
+!MESSAGE [Error]	Unexpected resource file:///K:/Programming/SpringApp/GuuPun/src/main/resources/static/css/the_remains_of_the_artificial_beach.css
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-04-26 01:06:48.759
+!MESSAGE [Info]	Typescript Server version info: {version=5.6.3, source=user-setting}

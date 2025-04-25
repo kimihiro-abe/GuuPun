@@ -1,4 +1,7 @@
-/*body { font-family: sans-serif; } */
+body {
+	font-family: "Noto Serif Japanese", serif;
+}
+
 button { padding: 10px 20px; font-size: 16px; }
 #message {
   opacity: 1; /* 初期表示 */
@@ -14,3 +17,4 @@ button { padding: 10px 20px; font-size: 16px; }
 .hidden {
   display: none; /* アニメーション後に完全に非表示にする場合 */
 }
+

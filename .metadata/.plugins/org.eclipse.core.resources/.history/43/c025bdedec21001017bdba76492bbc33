@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+	<meta charset="UTF-8">
+	<title>ChitChatCue</title>
+	<!-- 
+	<link href="/css/forgotten_mimolette.css" th:href="@{/css/forgotten_mimolette.css}" rel="stylesheet">
+     -->
+     
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>	
+    <link href="https://fonts.googleapis.com/css2?family=Kaisei+Opti&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div>🗨️ChitChatCue💬（ver. 0.2）</div>
+  <h1 th:text="${title}" 
+	title="If you're having trouble finding something to chit-chat about, this guy's your man! &#x1f4aa&#x1f576">The Remains of the Artificial beach</h1>
+  
+  <!-- <h2 id="message" th:class="${isPlaying ? 'fade-out' : 'fade-in'}">Distant shores of memory, fading gleam...</h2> -->
+  <h2 id="message">Here's the 👇️ Chit-Chat Cue!</h2>
+  <!-- <button id="toggleButton" th:text="${isPlaying ? '&#x23f9;' : '&#x25b6;'}">play/stop</button> -->
+  <button id="toggleButton" >▶️</button>
+  <div>ほげ</div>
+  
+  
+  <script th:src="@{/js/the_remains_of_the_artificial_beach.js?v=1}"></script>
+</body>
+</html>

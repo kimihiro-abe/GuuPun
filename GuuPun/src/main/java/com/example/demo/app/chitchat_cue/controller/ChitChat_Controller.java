@@ -1,0 +1,17 @@
+package com.example.demo.app.chitchat_cue.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+@RequestMapping("/the_remains_of_the_artificial_beach")
+public class ChitChat_Controller {
+	
+    // ルートURL（/）にアクセスしたときにサイトマップを表示
+    @GetMapping()
+    public String showSitemap() {
+        return "the_remains_of_the_artificial_beach/index";  // templates/index.html を返す
+    }
+
+}

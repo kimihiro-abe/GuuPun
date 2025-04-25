@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="ja" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>サイトマップ</title>
+</head>
+
+<body>
+    <h1>サイトマップ(仮)</h1>
+    <ul>
+        <li><a th:href="@{/forgotten_mimolette}">揮発性ToDoリスト : Forgotten Mimolette</a></li>
+        <li><a th:href="@{/the_remains_of_the_artificial_beach}">soundscape op.1 : The Remains of the Artificial beach</a></li>
+        <li><a th:href="@{/chitchat_cue}">話のネタ - 話のネタ : 🗨️ChitChatCue💬</a></li>
+    </ul>
+</body>
+
+</html>
