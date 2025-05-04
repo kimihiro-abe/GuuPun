@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping("/the_remains_of_the_artificial_beach")
 public class ChitChat_Controller {
 	
-    // ルートURL（/）にアクセスしたときにサイトマップを表示
+    // index
     @GetMapping()
     public String showSitemap() {
         return "the_remains_of_the_artificial_beach/index";  // templates/index.html を返す

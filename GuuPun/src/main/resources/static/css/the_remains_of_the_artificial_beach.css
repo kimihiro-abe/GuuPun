@@ -1,5 +1,8 @@
 body {
 	font-family: "Noto Serif Japanese", serif;
+	padding-top: 5rem;
+	text-align: center;
+    
 }
 
 button { padding: 10px 20px; font-size: 16px; }

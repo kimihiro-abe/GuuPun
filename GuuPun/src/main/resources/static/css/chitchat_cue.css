@@ -1,3 +1,22 @@
 body {
     font-family: "Kaisei Opti", serif;
+    padding-top: 5rem;
+    text-align: center;
+}
+
+.text {
+  display: inline-block;
+  font-size: 2rem;
+  transition: transform 0.5s, opacity 0.5s;
+}
+
+.text span {
+  display: inline-block;
+  position: relative;
+  transition: transform 0.5s, opacity 0.5s;
+}
+
+button:hover .text span {
+  transform: translate(calc(50px - 100px * random()), calc(50px - 100px * random())) rotate(calc(360deg * random()));
+  opacity: 0;
 }

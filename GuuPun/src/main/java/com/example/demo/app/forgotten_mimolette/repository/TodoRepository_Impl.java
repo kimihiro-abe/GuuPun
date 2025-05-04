@@ -10,6 +10,7 @@ import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Repository;
 
 import com.example.demo.app.forgotten_mimolette.entity.Todo;
+import com.example.demo.config.LoggerUtility;
 
 
 //interfaceのtodoRepositoryを実装したものが、todoRepositoryImpl
@@ -65,10 +66,14 @@ public class TodoRepository_Impl implements TodoRepository {
 	@Override
 	@Scheduled(cron = "0 0 18 * * ?")  // 最終的には深夜に実行予定
 	public void deleteOldTodos() {
+		LoggerUtility.logInfo("deleteOldTodos: start");
+		
 	    String sql = "DELETE FROM todo "
 	               + "WHERE createdate < CURRENT_TIMESTAMP - INTERVAL '8 days' "
 	               + "AND user_id = '1'";
 	    jdbcTemplate.update(sql);
+	    
+	    LoggerUtility.logInfo("deleteOldTodos: end");
 	}
 	//MySQL向けの文：SELECT FROM todo WHERE createdate < NOW() - INTERVAL 8 DAY and userId = '1'
 
