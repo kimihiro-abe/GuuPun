@@ -4204,3 +4204,285 @@ user global configuration and to define the default location to store repositori
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jst.jsp.core 4 4 2025-05-04 18:38:01.797
+!MESSAGE A workspace crash was detected. The previous session did not exit normally. Not using saved taglib indexes.
+
+!ENTRY org.eclipse.lsp4e 2 0 2025-05-05 16:34:51.543
+!MESSAGE Could not detect hyperlinks due to timeout after 800 milliseconds
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.operations.declaration.OpenDeclarationHyperlinkDetector.detectHyperlinks(OpenDeclarationHyperlinkDetector.java:72)
+	at org.eclipse.ui.texteditor.HyperlinkDetectorRegistry$HyperlinkDetectorDelegate.detectHyperlinks(HyperlinkDetectorRegistry.java:81)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:289)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.findHyperlinks(HyperlinkManager.java:262)
+	at org.eclipse.jface.text.hyperlink.HyperlinkManager.mouseMove(HyperlinkManager.java:457)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:229)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:91)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4404)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1173)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4202)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3790)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:663)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-05 16:42:59.613
+!MESSAGE [Info]	ESLint server running in node v22.11.0
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-05 16:42:59.767
+!MESSAGE [Info]	Using Typescript version (user-setting) 5.6.3 from path "C:\sts-4.27.0.RELEASE\plugins\org.eclipse.wildwebdeveloper_1.2.4.202411181846\node_modules\typescript\lib\tsserver.js"
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-05 16:42:59.823
+!MESSAGE [Info]	Typescript Server version info: {version=5.6.3, source=user-setting}
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-05 16:48:02.051
+!MESSAGE [Info]	ESLint server running in node v22.11.0
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-05 16:50:06.440
+!MESSAGE [Info]	ESLint server running in node v22.11.0
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-05-05 16:52:07.529
+!MESSAGE [Error]	Unexpected resource file:///K:/Programming/SpringApp/GuuPun/src/main/java/com/example/demo/app/forgotten_mimolette/controller/TodoController.java
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-05 17:20:50.361
+!MESSAGE [Info]	ESLint server running in node v22.11.0
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-05-05 17:20:50.395
+!MESSAGE Marker id 729 not found.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/GuuPun/src/main/resources/static/css/chitchat_cue.css)[376]: java.lang.IllegalStateException
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:63)
+	at org.eclipse.core.internal.resources.Marker.getAttribute(Marker.java:108)
+	at org.eclipse.lsp4e.operations.codeactions.LSPCodeActionMarkerResolution.hasResolutions(LSPCodeActionMarkerResolution.java:211)
+	at org.eclipse.ui.internal.ide.registry.MarkerHelpRegistry.hasResolution(MarkerHelpRegistry.java:263)
+	at org.eclipse.ui.internal.ide.registry.MarkerHelpRegistry.hasResolutions(MarkerHelpRegistry.java:236)
+	at org.eclipse.ui.views.markers.MarkerField.annotateImage(MarkerField.java:86)
+	at org.eclipse.ui.internal.views.markers.MarkerProblemSeverityAndMessageField.update(MarkerProblemSeverityAndMessageField.java:78)
+	at org.eclipse.ui.internal.views.markers.MarkerColumnLabelProvider.update(MarkerColumnLabelProvider.java:54)
+	at org.eclipse.jface.viewers.ViewerColumn.refresh(ViewerColumn.java:149)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:1000)
+	at org.eclipse.ui.internal.views.markers.MarkersTreeViewer.doUpdateItem(MarkersTreeViewer.java:62)
+	at org.eclipse.jface.viewers.AbstractTreeViewer$UpdateItemSafeRunnable.run(AbstractTreeViewer.java:158)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:1073)
+	at org.eclipse.jface.viewers.StructuredViewer$UpdateItemSafeRunnable.run(StructuredViewer.java:426)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.StructuredViewer.updateItem(StructuredViewer.java:2111)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createTreeItem(AbstractTreeViewer.java:894)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createChildren(AbstractTreeViewer.java:872)
+	at org.eclipse.jface.viewers.TreeViewer.createChildren(TreeViewer.java:611)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalConditionalExpandToLevel(AbstractTreeViewer.java:1858)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalExpandToLevel(AbstractTreeViewer.java:1892)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.expandToLevel(AbstractTreeViewer.java:1167)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.expandToLevel(AbstractTreeViewer.java:1139)
+	at org.eclipse.ui.internal.views.markers.ExtendedMarkersView.reexpandCategories(ExtendedMarkersView.java:1172)
+	at org.eclipse.ui.internal.views.markers.UIUpdateJob.runInUIThread(UIUpdateJob.java:105)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:148)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4177)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3793)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:663)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2025-05-05 17:20:50.399
+!MESSAGE Marker id 729 not found.
+!STACK 0
+java.lang.IllegalStateException
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:63)
+	at org.eclipse.core.internal.resources.Marker.getAttribute(Marker.java:108)
+	at org.eclipse.lsp4e.operations.codeactions.LSPCodeActionMarkerResolution.hasResolutions(LSPCodeActionMarkerResolution.java:211)
+	at org.eclipse.ui.internal.ide.registry.MarkerHelpRegistry.hasResolution(MarkerHelpRegistry.java:263)
+	at org.eclipse.ui.internal.ide.registry.MarkerHelpRegistry.hasResolutions(MarkerHelpRegistry.java:236)
+	at org.eclipse.ui.views.markers.MarkerField.annotateImage(MarkerField.java:86)
+	at org.eclipse.ui.internal.views.markers.MarkerProblemSeverityAndMessageField.update(MarkerProblemSeverityAndMessageField.java:78)
+	at org.eclipse.ui.internal.views.markers.MarkerColumnLabelProvider.update(MarkerColumnLabelProvider.java:54)
+	at org.eclipse.jface.viewers.ViewerColumn.refresh(ViewerColumn.java:149)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:1000)
+	at org.eclipse.ui.internal.views.markers.MarkersTreeViewer.doUpdateItem(MarkersTreeViewer.java:62)
+	at org.eclipse.jface.viewers.AbstractTreeViewer$UpdateItemSafeRunnable.run(AbstractTreeViewer.java:158)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:1073)
+	at org.eclipse.jface.viewers.StructuredViewer$UpdateItemSafeRunnable.run(StructuredViewer.java:426)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:47)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.StructuredViewer.updateItem(StructuredViewer.java:2111)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createTreeItem(AbstractTreeViewer.java:894)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.createChildren(AbstractTreeViewer.java:872)
+	at org.eclipse.jface.viewers.TreeViewer.createChildren(TreeViewer.java:611)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalConditionalExpandToLevel(AbstractTreeViewer.java:1858)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalExpandToLevel(AbstractTreeViewer.java:1892)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.expandToLevel(AbstractTreeViewer.java:1167)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.expandToLevel(AbstractTreeViewer.java:1139)
+	at org.eclipse.ui.internal.views.markers.ExtendedMarkersView.reexpandCategories(ExtendedMarkersView.java:1172)
+	at org.eclipse.ui.internal.views.markers.UIUpdateJob.runInUIThread(UIUpdateJob.java:105)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:148)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4177)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3793)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1042)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:663)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:339)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:570)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:173)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:178)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:208)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:143)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:109)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:439)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:271)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:668)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:605)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1481)
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-05-05 17:21:14.637
+!MESSAGE [Error]	Unexpected resource file:///K:/Programming/SpringApp/GuuPun/src/main/resources/static/css/chitchat_cue.css
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-05-05 17:21:17.328
+!MESSAGE [Error]	Unexpected resource file:///K:/Programming/SpringApp/GuuPun/src/main/resources/static/css/chitchat_cue.css
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-05-05 17:21:18.621
+!MESSAGE [Error]	Unexpected resource file:///K:/Programming/SpringApp/GuuPun/src/main/resources/static/css/chitchat_cue.css
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-05-05 17:21:29.012
+!MESSAGE [Error]	Unexpected resource file:///K:/Programming/SpringApp/GuuPun/src/main/resources/static/css/chitchat_cue.css
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-05-05 17:21:30.594
+!MESSAGE [Error]	Unexpected resource file:///K:/Programming/SpringApp/GuuPun/src/main/resources/static/css/chitchat_cue.css
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-05-05 17:21:32.243
+!MESSAGE [Error]	Unexpected resource file:///K:/Programming/SpringApp/GuuPun/src/main/resources/static/css/chitchat_cue.css
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-05-05 17:21:34.083
+!MESSAGE [Error]	Unexpected resource file:///K:/Programming/SpringApp/GuuPun/src/main/resources/static/css/chitchat_cue.css
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-05-05 17:21:46.967
+!MESSAGE [Error]	Unexpected resource file:///K:/Programming/SpringApp/GuuPun/src/main/resources/static/css/chitchat_cue.css
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-05-05 17:21:48.386
+!MESSAGE [Error]	Unexpected resource file:///K:/Programming/SpringApp/GuuPun/src/main/resources/static/css/chitchat_cue.css
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-05-05 17:21:55.657
+!MESSAGE [Error]	Unexpected resource file:///K:/Programming/SpringApp/GuuPun/src/main/resources/static/css/chitchat_cue.css
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-05-05 17:21:56.661
+!MESSAGE [Error]	Unexpected resource file:///K:/Programming/SpringApp/GuuPun/src/main/resources/static/css/chitchat_cue.css
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-05-05 17:22:01.643
+!MESSAGE [Error]	Unexpected resource file:///K:/Programming/SpringApp/GuuPun/src/main/resources/static/css/chitchat_cue.css
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-05-05 17:22:01.675
+!MESSAGE [Error]	Unexpected resource file:///K:/Programming/SpringApp/GuuPun/src/main/resources/static/css/chitchat_cue.css
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-05-05 17:22:05.659
+!MESSAGE [Error]	Unexpected resource file:///K:/Programming/SpringApp/GuuPun/src/main/resources/static/css/chitchat_cue.css
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-05-05 17:22:05.708
+!MESSAGE [Error]	Unexpected resource file:///K:/Programming/SpringApp/GuuPun/src/main/resources/static/css/chitchat_cue.css
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-05-05 17:22:38.417
+!MESSAGE [Error]	Unexpected resource file:///K:/Programming/SpringApp/GuuPun/src/main/resources/static/css/chitchat_cue.css
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-05-05 17:22:38.448
+!MESSAGE [Error]	Unexpected resource file:///K:/Programming/SpringApp/GuuPun/src/main/resources/static/css/chitchat_cue.css
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-05-05 17:22:40.621
+!MESSAGE [Error]	Unexpected resource file:///K:/Programming/SpringApp/GuuPun/src/main/resources/static/css/chitchat_cue.css
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-05-05 17:22:40.648
+!MESSAGE [Error]	Unexpected resource file:///K:/Programming/SpringApp/GuuPun/src/main/resources/static/css/chitchat_cue.css
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-05-05 17:22:43.849
+!MESSAGE [Error]	Unexpected resource file:///K:/Programming/SpringApp/GuuPun/src/main/resources/static/css/chitchat_cue.css
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-05-05 17:22:43.881
+!MESSAGE [Error]	Unexpected resource file:///K:/Programming/SpringApp/GuuPun/src/main/resources/static/css/chitchat_cue.css
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-05-05 17:22:51.488
+!MESSAGE [Error]	Unexpected resource file:///K:/Programming/SpringApp/GuuPun/src/main/resources/static/css/chitchat_cue.css
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-05-05 17:22:53.287
+!MESSAGE [Error]	Unexpected resource file:///K:/Programming/SpringApp/GuuPun/src/main/resources/static/css/chitchat_cue.css
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-05-05 17:23:14.162
+!MESSAGE [Error]	Unexpected resource file:///K:/Programming/SpringApp/GuuPun/src/main/resources/static/css/chitchat_cue.css
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-05-05 17:23:14.196
+!MESSAGE [Error]	Unexpected resource file:///K:/Programming/SpringApp/GuuPun/src/main/resources/static/css/chitchat_cue.css
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-05-05 17:24:27.348
+!MESSAGE [Error]	Unexpected resource file:///K:/Programming/SpringApp/GuuPun/src/main/resources/static/css/chitchat_cue.css
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-05 17:49:56.654
+!MESSAGE [Info]	ESLint server running in node v22.11.0
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-05-05 18:09:31.251
+!MESSAGE [Error]	Unexpected resource file:///K:/Programming/SpringApp/GuuPun/src/main/resources/templates/chitchat_cue/index.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-05-05 18:09:31.279
+!MESSAGE [Error]	Unexpected resource file:///K:/Programming/SpringApp/GuuPun/src/main/resources/templates/chitchat_cue/index.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-05-05 18:09:31.304
+!MESSAGE [Error]	Unexpected resource file:///K:/Programming/SpringApp/GuuPun/src/main/resources/templates/chitchat_cue/index.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-05-05 18:09:31.337
+!MESSAGE [Error]	Unexpected resource file:///K:/Programming/SpringApp/GuuPun/src/main/resources/templates/chitchat_cue/index.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-05-05 18:09:37.698
+!MESSAGE [Error]	Unexpected resource file:///K:/Programming/SpringApp/GuuPun/src/main/resources/templates/chitchat_cue/index.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-05-05 18:09:37.732
+!MESSAGE [Error]	Unexpected resource file:///K:/Programming/SpringApp/GuuPun/src/main/resources/templates/chitchat_cue/index.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-05-05 18:09:37.773
+!MESSAGE [Error]	Unexpected resource file:///K:/Programming/SpringApp/GuuPun/src/main/resources/templates/chitchat_cue/index.html
+
+!ENTRY org.eclipse.lsp4e 4 0 2025-05-05 18:09:37.807
+!MESSAGE [Error]	Unexpected resource file:///K:/Programming/SpringApp/GuuPun/src/main/resources/templates/chitchat_cue/index.html
+
+!ENTRY org.eclipse.lsp4e 1 0 2025-05-05 18:25:36.021
+!MESSAGE [Info]	ESLint server running in node v22.11.0

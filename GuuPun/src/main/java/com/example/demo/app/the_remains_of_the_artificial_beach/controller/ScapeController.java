@@ -5,13 +5,13 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-@RequestMapping("/chitchat_cue")
+@RequestMapping("/the_remains_of_the_artificial_beach")
 public class ScapeController {
 	
-    // ルートURL（/）にアクセスしたときにサイトマップを表示
+    // index
     @GetMapping()
     public String showSitemap() {
-        return "chitchat_cue/index";  // templates/index.html を返す
+        return "the_remains_of_the_artificial_beach/index";  // templates/index.html を返す
     }
 
 }

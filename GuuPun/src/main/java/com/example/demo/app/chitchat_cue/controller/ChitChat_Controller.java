@@ -1,17 +1,38 @@
 package com.example.demo.app.chitchat_cue.controller;
 
+import java.util.HashMap;
+import java.util.Map;
+
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+import com.example.demo.app.chitchat_cue.entity.Chatcue;
+import com.example.demo.app.chitchat_cue.service.ChatcueService;
+
 @Controller
-@RequestMapping("/the_remains_of_the_artificial_beach")
+@RequestMapping("/chitchat_cue")
 public class ChitChat_Controller {
 	
-    // index
+    private final ChatcueService chatcueService;
+
+    public ChitChat_Controller(ChatcueService chatcueService) {
+        this.chatcueService = chatcueService;
+    }
+	
+    // ルートURL（/）にアクセスしたときにサイトマップを表示
     @GetMapping()
-    public String showSitemap() {
-        return "the_remains_of_the_artificial_beach/index";  // templates/index.html を返す
+    public String showSitemap(Model model) {
+        return "chitchat_cue/index";  // templates/index.html を返す
+    }
+    
+    // Buttonの押下後の処理
+    @GetMapping("/showCue")
+    public String showCue(Model model) {
+    	Chatcue chatcue = chatcueService.findOne();
+    	model.addAttribute("chatcue", chatcue);
+        return "chitchat_cue/index";
     }
 
 }
