@@ -26,7 +26,7 @@ h2 {
 }
 
 h3 {
-	font-size: 105%; /* 通常サイズの1.5倍 */
+	font-size: 100%; /* 通常サイズの1.5倍 */
 }
 
 h1, h2, h3 {
@@ -34,9 +34,27 @@ h1, h2, h3 {
     margin-top: 0px; /* h2の上の余白 */
 }
 
-
-
 button:hover .text span {
   transform: translate(calc(50px - 100px * random()), calc(50px - 100px * random())) rotate(calc(360deg * random()));
   opacity: 0;
 }
+
+.add-button {
+  display: block;
+  margin: 5px auto;
+  padding: 10px 20px;
+  font-size: 1.5em;
+  cursor: pointer;
+  transform-origin: center;
+  background-color: #f0f0f0;
+  border: 3px solid #bbb;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); /* うっすら影もつけると立体感出るで！ */
+  border-radius: 8px;
+}
+
+.add-button:active {
+  transform: scale(0.7); /* 小さくなるアニメ演出 */
+  background-color: #e0e0e0;
+  box-shadow: inset 0 0 5px #aaa;
+}
+
