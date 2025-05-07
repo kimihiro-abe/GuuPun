@@ -20,7 +20,8 @@ public class SecurityConfig {
         .requestMatchers("/h2-console/**").permitAll()  // antMatchers() を requestMatchers() に変更
         .requestMatchers("/", "/index", "/css/**", "/js/**", "/images/**").permitAll()  // 静的リソースへのアクセスを許可
         .requestMatchers("/forgotten_mimolette/**").permitAll()  // /forgotten_mimolette へのアクセスも許可
-        .requestMatchers("/the_remains_of_the_artificial_beach/**").permitAll()  // /forgotten_mimolette へのアクセスも許可
+        .requestMatchers("/the_remains_of_the_artificial_beach/**").permitAll()  // /the_remains_of_the_artificial_beach へのアクセスも許可
+        .requestMatchers("/chitchat_cue/**").permitAll()  // /chitchat_cue へのアクセスも許可
         .anyRequest().authenticated()  // 他のURLは認証が必要
         
         .and()

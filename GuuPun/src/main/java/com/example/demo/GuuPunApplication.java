@@ -13,6 +13,7 @@ public class GuuPunApplication {
 		
 		// 揮発型ToDo List : Forgotten Mimolette
 		// Volatile ToDo List : Forgotten Mimolette
+		
 	}
 
 }
