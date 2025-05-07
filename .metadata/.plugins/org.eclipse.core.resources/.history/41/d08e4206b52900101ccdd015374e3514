@@ -1,0 +1,22 @@
+package com.example.demo.app.common;
+
+import java.util.List;
+
+public interface ConstCue {
+	List<String> CUE_PERSPECTIVE = List.of(
+		"オモシロさ！",
+		"くだらなさ！",
+		"そういうオチ！？",
+		"スベり度合い！",
+		"ダメさかげん",
+		"笑える！",
+		"インパクト！",
+		"小学生みたいな発想",
+		"なんか変…",
+		"大袈裟！",
+		"「へぇ～」てなる",
+		"バカバカしさ！",
+		"スタイリッシュ！",
+		"根拠ゼロ！"
+	);
+}

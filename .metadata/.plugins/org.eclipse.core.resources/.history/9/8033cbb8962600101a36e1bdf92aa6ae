@@ -1,0 +1,23 @@
+package com.example.demo.app.chitchat_cue.repository;
+
+import org.springframework.jdbc.core.JdbcTemplate;
+import org.springframework.stereotype.Repository;
+
+import com.example.demo.app.chitchat_cue.entity.Chatcue;
+
+@Repository
+public class ChatcueRepository_Impl implements ChatcueRepository {
+	
+	private final JdbcTemplate jdbcTemplate;
+
+	public ChatcueRepository_Impl(JdbcTemplate jdbcTemplate) {
+		this.jdbcTemplate = jdbcTemplate;
+	}
+
+	@Override
+	public Chatcue finfOne() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

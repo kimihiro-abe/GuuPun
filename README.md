@@ -44,6 +44,12 @@ GitHub: [@kimihiro-abe](https://github.com/kimihiro-abe)
 - CSS/JavaScriptを使用した動きのある処理（やや大げさに入れました）
 
 ### 2, soundscape op.1：The Remains of the Artificial beach  -  機能一覧(Features)
-- (開発中：ver.0.2  色々と作り途中です)
+- (開発中：ver.0.5)
 - Web Audio APIによるブラウンノイズ生成による砂浜で聞く波の音の模倣
 - 再生を止めた際に、5秒かけて音量をゼロへ。
+
+### 3, 話のタネ - 話のネタ : 🗨️ChitChatCue💬  -  機能一覧(Features)
+- (開発中：ver.0.4)
+- ボタンクリックで話のネタを提供してくれるwebアプリ
+- SQL文の方でランダムに1個を抽出
+- ボタンの上の行に表示される文章は定数クラスから持ってきている。こちらもランダムに表示。

@@ -1,0 +1,11 @@
+package com.example.demo.app.chitchat_cue.entity;
+
+public class chatcue {
+	private int chatcue_id;
+	private int category;
+	private String content;
+	private int access_level;
+	
+	
+
+}
