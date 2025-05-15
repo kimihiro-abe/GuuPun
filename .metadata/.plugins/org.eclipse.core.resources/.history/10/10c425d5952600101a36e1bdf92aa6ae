@@ -1,0 +1,5 @@
+package com.example.demo.app.chitchat_cue.repository;
+
+public interface ChatcueRepository {
+
+}

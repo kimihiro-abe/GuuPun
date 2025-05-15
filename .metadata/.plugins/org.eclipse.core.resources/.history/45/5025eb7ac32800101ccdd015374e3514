@@ -1,0 +1,8 @@
+package com.example.demo.app.chitchat_cue.service;
+
+import com.example.demo.app.chitchat_cue.entity.Chatcue;
+
+public class ChatcueService {
+	Chatcue findOne();
+
+}
