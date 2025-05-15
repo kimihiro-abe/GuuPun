@@ -1,8 +1,0 @@
-function fetchCategory() {
-    fetch("/chitchat_cue/showCue") // Controllerにリクエスト送信
-        .then(response => response.json())
-        .then(data => {
-            document.getElementById("category").innerText = data.category; // 結果を表示
-        })
-        .catch(error => console.error("エラー:", error));
-}
