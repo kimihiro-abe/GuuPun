@@ -64,7 +64,7 @@ public class TodoRepository_Impl implements TodoRepository {
 	}
 
 	@Override
-	@Scheduled(cron = "0 0 19 * * ?", zone = "Asia/Tokyo")  // 最終的には深夜に実行予定
+	@Scheduled(cron = "0 0 18 * * ?", zone = "Asia/Tokyo")  // 最終的には深夜に実行予定
 	public void deleteOldTodos() {
 		LoggerUtility.logInfo("deleteOldTodos: start");
 		
