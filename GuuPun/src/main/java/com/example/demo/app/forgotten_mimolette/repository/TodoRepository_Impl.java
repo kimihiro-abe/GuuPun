@@ -34,10 +34,10 @@ public class TodoRepository_Impl implements TodoRepository {
 		// タスク一覧をMapのListで取得(queryForListがそうなってる)
 		List<Map<String, Object>> resultList = jdbcTemplate.queryForList(sql);
 
-		//return用の空のListを用意
+		// return用の空のListを用意
 		List<Todo> list = new ArrayList<Todo>();
 
-		//詰め替える
+		// 詰め替える
 		for(Map<String, Object> result : resultList) {
 			// todoのカラム
 			Todo todo = new Todo();//entity
@@ -64,12 +64,12 @@ public class TodoRepository_Impl implements TodoRepository {
 	}
 
 	@Override
-	@Scheduled(cron = "0 0 18 * * ?")  // 最終的には深夜に実行予定
+	@Scheduled(cron = "0 0 19 * * ?", zone = "Asia/Tokyo")  // 最終的には深夜に実行予定
 	public void deleteOldTodos() {
 		LoggerUtility.logInfo("deleteOldTodos: start");
 		
 	    String sql = "DELETE FROM todo "
-	               + "WHERE createdate < CURRENT_TIMESTAMP - INTERVAL '8 days' "
+	               + "WHERE createdate < CURRENT_TIMESTAMP - INTERVAL '7 days' "
 	               + "AND user_id = '1'";
 	    jdbcTemplate.update(sql);
 	    
