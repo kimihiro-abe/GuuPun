@@ -38,6 +38,7 @@ GitHub: [@kimihiro-abe](https://github.com/kimihiro-abe)
 
 ## アプリケーションの解説
 ### 1, 揮発性ToDoリスト：Forgotten Mimolette  -  機能一覧(Features)
+- (開発中：ver.0.5) 
 - 操作機能をシンプルに「登録」と「削除」のみに絞りました。
 - タスクの経過日数に応じて文字色が薄くなります。（黒 > 薄い灰色）
 - 7日経過したタスクの自動削除（@Scheduledで、現状18:00で動作させています）
