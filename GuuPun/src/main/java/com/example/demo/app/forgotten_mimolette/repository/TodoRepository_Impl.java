@@ -69,8 +69,7 @@ public class TodoRepository_Impl implements TodoRepository {
 		LoggerUtility.logInfo("deleteOldTodos: start");
 		
 	    String sql = "DELETE FROM todo "
-	               + "WHERE createdate < CURRENT_TIMESTAMP - INTERVAL '7 days' "
-	               + "AND user_id = '1'";
+	               + "WHERE createdate < CURRENT_TIMESTAMP - INTERVAL '7 days'";
 	    jdbcTemplate.update(sql);
 	    
 	    LoggerUtility.logInfo("deleteOldTodos: end");

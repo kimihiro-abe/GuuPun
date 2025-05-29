@@ -41,7 +41,7 @@ GitHub: [@kimihiro-abe](https://github.com/kimihiro-abe)
 - (開発中：ver.0.5) 
 - 操作機能をシンプルに「登録」と「削除」のみに絞りました。
 - タスクの経過日数に応じて文字色が薄くなります。（黒 > 薄い灰色）
-- 7日経過したタスクの自動削除（@Scheduledで、現状18:00で動作させています）
+- 7日経過したタスクの自動削除（@Scheduledで、現状18:00で動作。全ユーザー対象）
 - CSS/JavaScriptを使用した動きのある処理（やや大げさに入れました）
 
 ### 2, soundscape op.1：The Remains of the Artificial beach  -  機能一覧(Features)
